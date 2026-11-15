@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Lupanaitor",
+    "slug": "lupanaitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.lupanaitor.app",
+      "permissions": ["CAMERA"],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Lupanaitor necesita la cámara para mostrar la lupa.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ]
+    ]
+  }
+}
