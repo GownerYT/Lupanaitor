@@ -111,7 +111,6 @@ const styles = StyleSheet.create({
   handle: {
     position: 'absolute',
     alignSelf: 'center',
-    backgroundColor: colors.handle,
   },
   lens: {
     position: 'absolute',
